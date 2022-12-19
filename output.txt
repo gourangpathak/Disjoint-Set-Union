@@ -1,0 +1,4 @@
+Before Union
+3 and 7 belong to different component
+After Union
+3 and 7 belong to same component
