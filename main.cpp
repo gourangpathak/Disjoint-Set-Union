@@ -53,7 +53,7 @@ class DisjointSet {
             parent[pv] = pu;
             size[pu]+=size[pv];
         }
-        else if(rank[pu] < rank[pv]){
+        else if(size[pu] < size[pv]){
             parent[pu] = pv;
             size[pv]+=size[pu];
         }
